@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.first__section {
+    background-image: linear-gradient(rgba(218, 27, 27, 0.911), rgba(219, 34, 34, 0.5)),url(https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+h1{
+    color: rgb(168, 56, 52);
+}
+
+nav{
+    background: linear-gradient(rgb(68, 214, 219), rgb(121, 211, 103));
+    position: sticky;
+    top: 0;
+}
+
+nav label{
+    color: rgb(58, 46, 219);
+    font-size: 35px;
+    padding: 0 50px;
+    line-height: 80px;
+}
+
+nav p{
+    position: absolute;
+    top: 55px;
+    left: 125px;
+    color: rgb(75, 60, 209);
+    font-weight: bolder;
+    letter-spacing: 0.5px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 55px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(189, 100, 65);
+    font-size: 17px;
+}
+
+nav a.active{
+    background: blue;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+nav a:hover{
+    background: blue;
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: rgb(235, 53, 53);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+.container p{
+    color: rgba(22, 7, 3, 0.877);
+    font-size: 25px;
+    margin: 35px;
+    text-align: justify;
+}
+
+.container img{
+    float: left;
+    width:800px;
+    height: 500px;
+    margin: 15px 50px;
+    border: 2px solid rgb(0, 255, 76);
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 0 rgba(92, 92, 92);
+}
+
+.enroll{
+    margin-top: 55px;
+    margin-left: 455px;
+}
+
+.enroll p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.enroll input[type=text]{
+    width: 350px;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bolder;
+    background: rgba(19, 10, 10, 0.712);
+    color: white;
+    outline: none;
+    border-radius: 25px  0 0 25px;
+    box-shadow: 5px 5px 10px 0 blue;
+}
+
+.enroll input[type=submit]{
+    font-size: 25px;
+    padding: 10px 25px;background: rgba(19, 10, 10, 0.712);
+    color: white;
+    letter-spacing: 3px;
+    position: absolute;
+    border-radius: 0 25px 25px 0;
+    box-shadow: 5px 5px 10px 0 blue;
+    cursor: pointer;
+    position: static;
+}
+
+.enroll input[type=submit]:hover{
+    background: linear-gradient(rgba(0,0,161,0.5), rgba(0, 0, 25, 0.8));
+}
+
+.arrow__btn .arrow__button{
+    position: fixed;
+    top: 90%;
+    right: 4%;
+    background: linear-gradient(blue,black);
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    z-index: 100;
+
+}
+
+.second__section{
+    background: black;
+    height: 100vh;
+}
+
+.second__section h2{
+    position: relative;
+    left: 550px;
+    color: white;
+    font-size: 45px;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+    /* text-decoration: underline; */
+    border-bottom: 5px solid white;
+    width: 345px;
+}
+
+
+/* second*/
+
+.second__container{
+    display: flex;
+}
+.one{
+    flex-basis: 45%;
+}
+.one img{
+    width: 100%;
+    height: 350px;
+    margin: 100px 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    box-shadow: 15px 15px 15px 0 rgba(92, 92, 92);
+}
+
+.two{
+    flex-basis: 55%;
+    margin: 85px 50px;
+}
+
+.two p{
+    margin-top: 25px;
+    font-size: 25px;
+    color: white;
+    text-align: justify;
+}
+
+
+/* final*/
+footer{
+    border-top: 10px solid rgb(54, 54, 54);
+    height: 60vh;
+    width: 100%;
+    background: black;
+    position: relative;
+}
+
+footer .bha{
+    margin: 50px 0 0 35px;
+    color: white;
+}
+
+footer .bha h2{
+   font-family: 'Tangerine', cursive;
+   font-size: 100px;
+   letter-spacing: 1.5px;
+}
+
+footer .bha p{
+   margin: -25px 0 0 200px;
+   font-family: 'Kaisei Tokumin', serif;
+   font-size: 25px;
+   letter-spacing: 1.5px;
+}
+
+footer .social{
+   color: white;
+   display: flex;
+   margin: 45px 0  12px 45px;
+}
+
+footer .social i{
+   font-size: 30px;
+   margin-left: 25px;
+}
+
+footer i{
+   font-size: 25px;
+}
+
+footer a{
+   color: white;
+   transition: 0.3s ease;
+}
+
+footer .facebbok a:hover{
+   color: blue;
+}
+
+footer .instagram a:hover{
+   color: rgb(255, 22, 61);
+}
+
+footer .twitter a:hover{
+   color: rgb(0, 156, 204);
+}
+footer .linkedln a:hover{
+   color: rgb(5, 104, 161);
+}
+
+footer .youtube a:hover{
+   color: rgb(255, 0, 0);
+}
+  
+
+/*     Support section*/
+
+footer .support{
+   position: absolute;
+   top: 80px;
+   left: 500px;
+}
+
+footer .support h2{
+   font-size: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #ffffff;
+   margin-bottom: 30px;
+   padding: 0 0 10px 0;
+   width: 150px;
+   border-bottom: 4px solid red;
+}
+
+footer .support p,a{
+   font-size: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(97, 97, 97);
+   margin-top: 15px;
+   text-decoration: none;
+   transition: 0.3s ease;
+}
+
+footer .support p:hover{
+   font-weight: bolder;
+   color: white;
+}
+
+/*     HYDRA section  */
+
+footer .traits{
+   position: absolute;
+   top: 80px;
+   left: 800px;
+}
+
+footer .traits h2{
+   font-size: 25px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: #ffffff;
+   margin-bottom: 30px;
+   padding: 0 0 10px 0;
+   width: 150px;
+   border-bottom: 4px solid red;
+}
+
+footer .traits p,a{
+   font-size: 30px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: rgb(97, 97, 97);
+   margin-top: 15px;
+   text-decoration: none;
+   transition: 0.3s ease;
+}
+
+footer .traits p:hover{
+   font-weight: bolder;
+   color: white;
+}
+
+/*    About section  */
+
+footer .about{
+   position: absolute;
+   top: 80px;
+   left: 1100px;
+}
+
+footer .about i{
+   color: white;
+   font-size: 20px;
+   letter-spacing: 5px;
+}
+
+footer .about label{
+   font-size: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: white;
+   margin-bottom: 30px;
+}
+
+footer .about input[type=email]{
+   margin-top: 50px;
+   width: 350px;
+   background: transparent;
+   color: rgb(148, 148, 148);
+   outline: none;
+   border: none;
+   border-bottom: 2px solid rgb(119, 119, 119);
+   padding: 0 0 5px 25px;
+   font-size: 18px;
+   font-weight: bold;
+   letter-spacing: 0.3px;
+}
+
+footer .about input[type=email]::placeholder{
+   font-size: 18px;
+   font-weight: lighter;
+   letter-spacing: 0.8px;
+}
+
+footer .about input[type=submit]{
+   margin: 25px 0 0 0;
+   padding: 15px 25px;
+   width: 150px;
+   font-size: 25px;
+   background: #ff2020;
+   outline: none;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
